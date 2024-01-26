@@ -38,7 +38,7 @@ const Footer = () => {
            <div>
             <div>
                 <img src={BrandLogo}/>
-                <p>When an unknown prnoto sans took a galley and scrambled it to make specimen book not only five When an unknown prnoto sans took a galley and scrambled it to five centurie.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates sapiente magni assumenda esse inventore voluptatibus cumque excepturi laborum laudantium dignissimos cupiditate quam, quos, quae praesentium temporibus suscipit animi officia nemo!</p>
                 <h3>Address</h3>
                 <p>Harshit House <br/>Bangalore, Karnataka 560103</p>
             </div>

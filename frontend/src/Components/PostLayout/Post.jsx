@@ -10,11 +10,9 @@ const Post = () => {
       <img src={DP}/>
       <div>
         <h3><Button>See more</Button></h3>
-        <h2>Helpful Tips for Working from Home as a Freelancer</h2>
+        <h2>Random Heading is given here</h2>
         <p>
-          Gosh jaguar ostrich quail one excited dear hello and bound and the and
-          bland moral misheard roadrunner flapped lynx far that and jeepers
-          giggled far and far
+         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam, sunt doloribus. Ipsam laudantium inventore exercitationem perferendis omnis maxime doloribus ab officia atque fugit. Fugiat eius, mollitia corporis a quibusdam fugit.
         </p>
         <p style={{ justifyItems:"flex-end",display:"flex",justifyContent:"flex-end",alignItems:"center"}}><AccessTimeIcon/> 3 minutes ago</p>
       </div>

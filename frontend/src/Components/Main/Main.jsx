@@ -14,13 +14,7 @@ const Main = () => {
         <div>
             <p style={{fontWeight:"Bold"}}> Hello Everyone!</p>
             <h1>I'm <span>Harshit Kumar</span></h1>
-            <p>I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.</p>
-          
-            {/* <div className="inputDiv">  
-            <input type="text" id="fname" name="fname"/>
-                <SubscribeButton variant="contained" href="/signup">Subscribe --</SubscribeButton>
-                <button>hii</button>
-            </div> */}
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum maxime, quis architecto excepturi, delectus amet, praesentium esse nemo explicabo veritatis quia quasi. A hic consequatur, veritatis quisquam veniam qui minus.</p>
             
         </div>
         <div>
