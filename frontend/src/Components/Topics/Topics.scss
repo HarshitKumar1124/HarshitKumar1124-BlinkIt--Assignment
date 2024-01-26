@@ -1,0 +1,125 @@
+
+.activeButton{
+    background-color: hsla(216, 33%, 20%, 1) !important;
+    color: white !important;
+}
+
+
+.container{
+    // border: 2px solid dodgerblue;
+   
+    padding: 0rem 10rem 0rem;
+}
+.topic_container{
+
+    // border:2px solid hsla(216, 33%, 20%, 1);
+    background-color: hsla(222, 44%, 13%, 1);
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    padding: 2rem;
+    
+
+    &>div{
+        // border: 2px solid rgb(238, 176, 176);
+        
+        height: 23rem;
+    }
+
+    &>div:nth-child(1){
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        
+        Button{
+            margin: 1rem 0.5rem ;
+            border-radius: 90%;
+            background-color: rgba(184, 210, 247,0.1);
+            color: rgba(255, 255, 255,0.2);
+        }
+        
+       
+    }
+
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0.5rem 0 ;
+}
+
+.swiper{
+
+    // border:2px solid yellow;
+    width:100%;
+    height:100%;
+
+
+
+
+    .Slides{
+
+        // border:2px solid orange;
+        display: grid;
+        place-items: center;
+      
+        // margin:1rem
+
+        .img_container{
+            display: inline-block;
+            width: 90%;
+            height: 90%;
+            box-shadow: 0 0 5px rgb(96, 95, 95);
+            border-radius: 1rem;
+            overflow: hidden;
+            position: relative;
+
+            &::before{
+                content: "";
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                background-image: linear-gradient(transparent,rgba(21, 21, 21, 0.6))
+            }
+
+          
+            
+            &:hover{
+                box-shadow: 0 0 15px rgba(30, 144, 255,0.5);
+                color: dodgerblue !important
+            }
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            
+            }
+
+
+            .sliderTitle{
+                position: absolute;
+                z-index: 3;
+                left: 1rem;
+                bottom: 1rem;
+
+
+                h2{
+                color:white;
+                font-size: 1.4rem;
+
+               
+               
+                }
+
+                p{
+                   
+                    font-style: italic;
+                }
+            }
+
+        }
+    }
+
+
+}
