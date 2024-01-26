@@ -26,7 +26,7 @@ export const getAllBlogs = ()=>async(dispatch)=>{
 
     try{
 
-        const {data} = await axios.get('http://localhost:5500/api/v1/get/blogs');
+        const {data} = await axios.get(`${process.env.REACT_APP_SERVER_BASE_URL}/api/v1/get/blogs`);
 
         console.log('fetched all blogs successful',data)
 
@@ -57,7 +57,7 @@ export const getSpecificBlog = (blogId)=>async(dispatch)=>{
 
     try{
 
-        const {data} = await axios.get(`http://localhost:5500/api/v1/get/blog/${blogId}`);
+        const {data} = await axios.get(`${process.env.REACT_APP_SERVER_BASE_URL}/api/v1/get/blog/${blogId}`);
 
         console.log('fetched SPECIFIC blog successful',data)
 
@@ -91,7 +91,7 @@ export const delBlog = (ID)=>async(dispatch)=>{
 
     try{
         
-        const api = `http://localhost:5500/api/v1/delete/blog/${ID}`
+        const api = `${process.env.REACT_APP_SERVER_BASE_URL}/api/v1/delete/blog/${ID}`
         const {data} = await axios.delete(api);
 
         console.log('delete blog successful',data)
@@ -125,7 +125,7 @@ export const createBlog = (Obj)=>async(dispatch)=>{
     try{
         
       
-        const {data} = await axios.post(`http://localhost:5500/api/v1/new/blog`,Obj);
+        const {data} = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/v1/new/blog`,Obj);
 
         console.log('create blog successful',data)
 

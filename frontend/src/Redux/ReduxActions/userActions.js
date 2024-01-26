@@ -25,7 +25,7 @@ export const loginUser = (Obj)=>async(dispatch)=>{
 
     try{
 
-        const {data} = await axios.post('http://localhost:5500/api/v1/login/user',Obj);
+        const {data} = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/v1/login/user`,Obj);
 
         console.log('login successful',data)
 
@@ -57,7 +57,7 @@ export const loadUser = ()=>async(dispatch)=>{
 
     try{
 
-        const {data} = await axios.get('http://localhost:5500/api/v1/load/user')
+        const {data} = await axios.get(`${process.env.REACT_APP_SERVER_BASE_URL}/api/v1/load/user`)
 
         console.log('loadding successful',data)
 
@@ -89,7 +89,7 @@ export const logoutUser = ()=>async(dispatch)=>{
 
     try{
 
-        const {data} = await axios.post('http://localhost:5500/api/v1/logout/user')
+        const {data} = await axios.post(`${process.env.REACT_APP_SERVER_BASE_URL}/api/v1/logout/user`)
 
         console.log('logging out successful',data)
 
