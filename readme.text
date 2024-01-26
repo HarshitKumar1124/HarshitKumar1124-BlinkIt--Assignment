@@ -1,3 +1,55 @@
 Backend Deployed Base Link - https://hypesquare-media-blog-platform-server.onrender.com
 
 Frontend Deployed Base Link - 
+
+
+
+
+Summary Of Hype-Square Media Assignment |
+
+*******************************************
+
+
+
+In development of SERVER 
+
+************************
+
+1- Used Node.js and MongoDB Atlas for organising , storing and retriving of data of individual users.
+
+2- Developed RestFul APIs Endpoints for User Actions like Login, Logout, Sign UP, Create new Blogs etc.
+
+3- This project mainly focuses on the CRUD operations performed by the user oN THE BLOGS.
+
+4- Used JSON WEB Tokens for handling the user's Authentication or Auto login functionality.
+
+5- Implemented Error Handlers and normal/authenticated routing to avoid the crashing of server.
+
+6- Backend is deployed on WWW.RENDER.COM
+
+7- Bycrypt.js can also be used to store password in HASHED string for security.
+
+
+
+
+In development of CLIENTSIDE
+
+***************************
+
+1- Used the REACT.JS javascript library for making Multirouting Website.
+
+2- Implemented the Code Modularity and reduce code reduduncy
+
+3- Used Additional transitions and animations along with Message or notification alerts REACT-TOSTIFY
+
+4- Created responsive website except 1 page is left for being responsive.
+
+5 - Used the UI framework of Material UI to enhance user experience and web designs.
+
+6- Facing the frontend Deployment issue . Will be updating the file once it is resolved.
+
+Trying on NETLIFY and VERCEL.
+
+
+
+
