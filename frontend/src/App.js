@@ -7,14 +7,16 @@ import CreateBlog from "./Components/GeneralCustomComponent/BlogDialougeBox.jsx"
 import ViewBlog from './Pages/ViewBlog.js'
 import ProtectedRoute from "./Components/GeneralCustomComponent/ProtectedRoute.jsx"
 import Redirect from "./Components/GeneralCustomComponent/Redirect.jsx"
+import Dashboard from './Pages/Dashboard.js'
 
 
 
 const App = () => {
 
   return (
+    
     <Router>
-
+           
       <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/signinout" element={<SignInOut/>}/>
@@ -22,7 +24,8 @@ const App = () => {
           <Route exact path="/blogstore"element={<Blogstore/>}/>
 
           {/* this route must be protected route */}
-          <Route exact path="/createblog" element={<ProtectedRoute Component={CreateBlog} />} />
+          <Route exact path="/createblog" element={<ProtectedRoute Component={CreateBlog} />} />\
+          <Route exact path="/user/profile" element={<ProtectedRoute Component={Dashboard} />} />
 
           <Route exact path="/view/blog/:id" element={<ViewBlog/>}/>
 

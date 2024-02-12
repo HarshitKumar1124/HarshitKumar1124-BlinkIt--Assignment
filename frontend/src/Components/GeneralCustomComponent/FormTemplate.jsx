@@ -63,14 +63,14 @@ const FormTemplate = ({heading,subheading,template}) => {
     dispatch(loadUser());
   else if(UserLoadAuth)
   {
-    Navigate('/blogstore')
+    Navigate('/user/profile')
   }
 
     if(isAuth )
     {
       
       toast.success(response.message)
-      Navigate('/blogstore')
+      Navigate('/user/profile')
     }
     else if(isAuth==false)
     {

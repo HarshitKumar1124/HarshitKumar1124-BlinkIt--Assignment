@@ -31,6 +31,7 @@ const Navbar = () => {
             <Link to="/"><li>Home</li></Link>
             <Link to="/about"><li>About</li></Link>
             <Link to="/blogstore"><li>Blogs</li></Link>
+            <Link to="/user/profile"><li>Profile</li></Link>
 
           </ul>
           </Grid>

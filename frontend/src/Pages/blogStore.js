@@ -42,20 +42,20 @@ const BlogStore = () => {
   
 
   return (
-    <div style={{minHeight:"100vh"}}>
-      {/* border:"2px solid red", */}
-        <Navbar/>
+    (blogLoading==false && loading==false)?<div style={{minHeight:"100vh"}}>
+    {/* border:"2px solid red", */}
+      <Navbar/>
 
-       {(!loading && isAuth)?<AuthUserSpeedDial/>:<></>} 
-       <section style={{padding:"5rem 0 0 0",display:"flex"}}>
-       {/* border:"2px solid yellow", */}
-        {
-          (!blogLoading && response && response.Blogs.length!=0) ?response.Blogs.map((blog)=> {return <BlogCard  blogData={blog}/>}):<></>
-        }
-        
-       </section>
+     {(loading==false && isAuth)?<AuthUserSpeedDial/>:<></>} 
+     <section style={{padding:"5rem 0 0 0",display:"flex"}}>
+     {/* border:"2px solid yellow", */}
+      {
+        (blogLoading==false && response && response.Blogs.length!=0) ?response.Blogs.map((blog)=> {return <BlogCard  blogData={blog}/>}):<></>
+      }
+      
+     </section>
 
-    </div>
+  </div>:<></>
   )
 }
 
