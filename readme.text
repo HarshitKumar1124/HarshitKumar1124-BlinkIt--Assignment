@@ -5,7 +5,7 @@ Frontend Deployed Base Link -
 
 
 
-Summary Of Hype-Square Media Assignment |
+Summary Of BlinkIt Intern - Authorisation & Authentication Demonstration Assignment |
 
 *******************************************
 
@@ -26,10 +26,6 @@ In development of SERVER
 5- Implemented Error Handlers and normal/authenticated routing to avoid the crashing of server.
 
 6- Backend is deployed on WWW.RENDER.COM
-
-7- Bycrypt.js can also be used to store password in HASHED string for security.
-
-
 
 
 In development of CLIENTSIDE
